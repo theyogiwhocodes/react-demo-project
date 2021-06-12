@@ -1,11 +1,8 @@
-import { useState, useEffect } from "react";
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Header from "./components/header";
 import Content from "./components/content";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
