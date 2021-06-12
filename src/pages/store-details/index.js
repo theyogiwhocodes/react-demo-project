@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 
 export default function StoreDetails() {
-  const { id } = userParams();
-
+  const { id } = useParams();
   useEffect(() => {
     axios
       .get(`http://localhost:3600/products/${id}`)

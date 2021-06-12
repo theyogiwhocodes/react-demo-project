@@ -1,6 +1,7 @@
 import React from "react";
 import { Heading, Text } from "../ui";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const styles = {
   card: {
@@ -38,7 +39,7 @@ export default function StoreCard({ store }) {
       )}
       <div className="row">
         <div className="col-8">
-          <Link href={`/search/stores/${id}`}>
+          <Link to={`/search/stores/${store.id}`}>
             <Heading text={name} />
           </Link>
           <Text text={`${priceRange} | ${desc}`} />

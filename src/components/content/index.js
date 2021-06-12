@@ -10,11 +10,11 @@ export default function Content() {
       <Route exact path="/">
         <div>Home Page</div>
       </Route>
-      <Route exact path="/search">
-        <SearchListing></SearchListing>;
-      </Route>
-      <Route exact path="/search/stores/:id">
+      <Route path="/search/stores/:id">
         <StoreDetails></StoreDetails>
+      </Route>
+      <Route path="/search">
+        <SearchListing></SearchListing>
       </Route>
     </Switch>
   );

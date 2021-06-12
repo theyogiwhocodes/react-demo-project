@@ -6,10 +6,10 @@ export default function Menu() {
     <div className="application-menu">
       <ul>
         <li>
-          <Link href="/"></Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link href="/search"></Link>
+          <Link to="/search">Search</Link>
         </li>
       </ul>
     </div>
