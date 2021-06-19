@@ -13,6 +13,7 @@ export default function Content() {
       <Route path="/search/stores/:id">
         <StoreDetails></StoreDetails>
       </Route>
+      {/* Use parametric or the longest route first  */}
       <Route path="/search">
         <SearchListing></SearchListing>
       </Route>
