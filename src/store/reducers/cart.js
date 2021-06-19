@@ -7,5 +7,6 @@ const initialState = {
 };
 
 export default function Cart(state = initialState, action) {
+  console.log("IN REDUCER - Cart Reducer");
   return state;
 }

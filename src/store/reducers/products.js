@@ -7,5 +7,6 @@ const initialState = {
 };
 
 export default function Products(state = initialState, action) {
+  console.log("IN REDUCER - Products Reducer");
   return state;
 }
